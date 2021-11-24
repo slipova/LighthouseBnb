@@ -15,6 +15,6 @@ INSERT INTO reservations (property_id, guest_id, start_date, end_date) VALUES (3
 INSERT INTO reservations (property_id, guest_id, start_date, end_date) VALUES (3, 1, 2020-02-14, 2020-02-15);
 
 
-INSERT INTO property_reviews (guest_id, property_id, reservations_id, rating, message) VALUES (1, 2, 1, 3.7, 'Could be worse I guess');
-INSERT INTO property_reviews (guest_id, property_id, reservations_id, rating, message) VALUES (1, 3, 2, 1.6, 'The actual worst');
-INSERT INTO property_reviews (guest_id, property_id, reservations_id, rating, message) VALUES (2, 1, 3, 4.3, 'Doorknob in the bathroom is wiggly');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (1, 2, 1, 3.7, 'Could be worse I guess');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (1, 3, 2, 1.6, 'The actual worst');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (2, 1, 3, 4.3, 'Doorknob in the bathroom is wiggly');
